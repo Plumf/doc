@@ -26,21 +26,21 @@ Ils apparaissent comme cela :
 
 ## Formatage dans les paragraphes
 
-Pour taper un retour à la ligne sans créer de nouveau paragraphe, il est nécessaire de taper **deux espaces consécutifs**.Sans cela, le texte continuera à la suite en respectant les contraintes générales du style de la page.
+Pour taper un retour à la ligne sans créer de nouveau paragraphe, il est nécessaire de taper **deux espaces consécutifs**. Sans cela, le texte continuera à la suite en respectant les contraintes générales du style de la page.
 
 En rédigeant ça :
 
 ```markdown
-Pour du texte en *italique il faut encadrer par un astérisque* `*`
-Pour rédiger du **texte en gras par deux astérisques** `**`
-On peut aussi ~~barrer le texte~~ en encadrant avec deux tildes `~`
+Pour du texte en *italique il faut encadrer par un astérisque* `*`  
+Pour rédiger du **texte en gras par deux astérisques** `**`  
+On peut aussi ~~barrer le texte~~ en encadrant avec deux tildes `~`  
 ```
 
 On peut lire ça :
 
-Pour du texte en *italique il faut encadrer par un astérisque* `*`
-Pour rédiger du **texte en gras par deux astérisques** `**`
-On peut aussi ~~barrer le texte~~ en encadrant avec deux tildes `~`
+Pour du texte en *italique il faut encadrer par un astérisque* `*`  
+Pour rédiger du **texte en gras par deux astérisques** `**`  
+On peut aussi ~~barrer le texte~~ en encadrant avec deux tildes `~`  
 
 ## Créer des liens
 
@@ -75,11 +75,11 @@ Il est aussi possible de directement renvoyer une ancre au titre, en notant le l
 Il ne reste plus qu'à désigner l'ancre au texte que l'on souhaite rendre interactif :
 
 ```markdown
-[Mon ancre qui renvoie vers les listes](#nomdelancre)
+[Mon ancre qui renvoie vers les listes](#nomdelancre)  
 [Mon ancre qui renvoie vers le titre des tableaux](#les-tableaux)
 ```
 
-[Mon ancre qui renvoie vers les listes](#nomdelancre)
+[Mon ancre qui renvoie vers les listes](#nomdelancre)  
 [Mon ancre qui renvoie vers le titre des tableaux](#les-tableaux)
 
 ## Afficher des images
@@ -105,18 +105,18 @@ L'encart de *texte à afficher en cas d'impossibilité de chargement de l'image*
 Les citations permettent de mettre en valeur un propos tenu par une autre personne, le wiki gère lui même la façon dont c'est valorisé. Markdown utilise un chevron fermant, ce symbole : `>`, pour annoncer une citation. Il suffit de les rajouter avant la citation, comme tel :
 
 ```markdown
->Du texte de citation du premier niveau
+>Du texte de citation du premier niveau  
 >qui peut être formaté en différentes lignes
 
->> Et une seconde citation
+>> Et une seconde citation  
 >> avec des doubles chevrons
 ```
 S'affichera :
 
->Du texte de citation du premier niveau
+>Du texte de citation du premier niveau  
 >qui peut être formaté en différentes lignes
 
->> Et une seconde citation
+>> Et une seconde citation  
 >> avec des doubles chevrons
 
 ## Les listes
